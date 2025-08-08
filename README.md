@@ -41,3 +41,37 @@ The EnhancedDemo shows:
 ---
 
 **Full HoloNET Repository**: https://github.com/NextGenSoftwareUK/holochain-client-csharp
+
+### 🔧 Holochain Version Compatibility
+
+**IMPORTANT**: This release includes updates for the latest Holochain version compatibility:
+
+- **Added HolochainVersionEnum** in `Core/Enums/HolochainVersionEnum.cs`
+  - Support for Redux (legacy 0.0.x)
+  - Support for RSM (0.0.x series)
+  - **Support for Holochain 0.5.2** (latest stable)
+
+- **Updated HoloNETDNA.cs** with version management
+- **Updated IHoloNETDNA.cs** interface
+- **Updated project files** for .NET 9.0 compatibility
+
+### 📁 Directory Structure
+
+```
+TestHarness/           # Enhanced test harness files
+├── SimpleTest.cs
+├── EnhancedDemo.cs
+├── HoloNETTestHarnessGuide.cs
+├── HoloNETTestHarness.cs
+├── TestToRun.cs
+└── *.csproj
+
+Core/                  # Core HoloNET updates
+├── Enums/
+│   └── HolochainVersionEnum.cs
+├── HoloNETDNA.cs
+├── IHoloNETDNA.cs
+└── *.csproj
+```
+
+✅ **Ready for Holochain 0.5.2 and latest versions!**
