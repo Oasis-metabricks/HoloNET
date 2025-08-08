@@ -1,0 +1,65 @@
+From fb409a5e7342d8ec9e14a6ab38b0465a7003fba5 Mon Sep 17 00:00:00 2001
+From: Max Gershfield <max.gershfield1@gmail.com>
+Date: Sat, 9 Aug 2025 00:23:51 +0100
+Subject: [PATCH] docs: Add comprehensive README for OASIS Metabricks enhanced
+ HoloNET
+
+---
+ README-OASIS-METABRICKS.md | 45 ++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 45 insertions(+)
+ create mode 100644 README-OASIS-METABRICKS.md
+
+diff --git a/README-OASIS-METABRICKS.md b/README-OASIS-METABRICKS.md
+new file mode 100644
+index 0000000..2738e1e
+--- /dev/null
++++ b/README-OASIS-METABRICKS.md
+@@ -0,0 +1,45 @@
++# HoloNET - Enhanced C# Client for Holochain
++
++## 🌟 OASIS Metabricks Enhanced Version
++
++This is the enhanced version of HoloNET specifically developed for the OASIS Metabricks ecosystem, featuring comprehensive test harnesses, visual dashboards, and improved developer experience.
++
++## ✨ New Features Added
++
++### 🚀 Enhanced Test Harnesses
++- **SimpleTest.cs** - Basic HoloNET functionality demonstration without requiring a conductor
++- **EnhancedDemo.cs** - Comprehensive interactive showcase of HoloNET capabilities  
++- **HoloNETTestHarnessGuide.cs** - Complete documentation and guide for all available test harnesses and dashboards
++
++### 🎨 Visual Dashboards Discovered
++- **MAUI Dashboard** - Comprehensive visual interface with gradient styling and real-time monitoring
++- **Web Dashboard** - HTML/CSS based interface for OASIS integration
++- **WPF Interface** - Rich desktop application for HoloNET management
++
++### 🔧 Technical Improvements
++- ✅ Updated to .NET 9.0 compatibility
++- ✅ Removed problematic dependencies (Chaos.NaCl)
++- ✅ Enhanced error handling and state management
++- ✅ Cross-platform build support
++- ✅ Comprehensive event-driven architecture demonstration
++
++## 🚀 Quick Start
++
++### Running the Enhanced Test Harness
++
++\`\`\`bash
++cd NextGenSoftware.Holochain.HoloNET.Client.TestHarness
++dotnet run
++\`\`\`
++
++This will automatically run the **Test Harness Guide** showing you all available options.
++
++## 🤝 Contributing
++
++This enhanced version is maintained for the OASIS Metabricks ecosystem.
++
++---
++
++**Enhanced by**: OASIS Metabricks Team  
++**Enhancement Date**: January 2025  
++**Version**: Enhanced Demo & Dashboard Edition
+-- 
+2.39.2 (Apple Git-143)
+
